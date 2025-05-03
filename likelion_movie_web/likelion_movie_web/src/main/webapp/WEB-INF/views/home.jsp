@@ -5,6 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>멋사 영화</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="   crossorigin="anonymous"></script>
+	
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -45,164 +49,40 @@
         </div>
     </div>
     
-    <div style="display: flex; justify-content: center; ">
-        <div style="width: 60%; height: 60px; display: flex; align-items: center; justify-content: space-between;">
-            <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; display: inline-block; margin: 0;">일별박스오피스 조회</p>
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <input type="date" id="date" name="date" style="height: 30px; font-family: Arial, sans-serif;">
-                <button style="width: 70px; height: 20px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; background-color: #ff7710; color: white; border-radius: 5px; border: none;">영화조회</button>
-            </div>
-        </div>
-    </div>
-    
-    <div style="display: flex; justify-content: center; ">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 10px;">
-            <div style="width: 15%;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600;">순위</p>
-            </div>
-            <div style="width: 25%">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600;">영화명</p>
-            </div>
-            <div style="width: 25%">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600;">누적관객수</p>
-            </div>
-            <div style="width: 25%">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600;">개봉일</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    <div style="display: flex; justify-content: center;">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
-            <div style="width: 15%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">1</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">재미있는 영화</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">512920명</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">2024-04-01</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    <div style="display: flex; justify-content: center;">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
-            <div style="width: 15%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">1</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">재미있는 영화</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">512920명</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">2024-04-01</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    <div style="display: flex; justify-content: center;">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
-            <div style="width: 15%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">1</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">재미있는 영화</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">512920명</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">2024-04-01</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    <div style="display: flex; justify-content: center;">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
-            <div style="width: 15%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">1</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">재미있는 영화</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">512920명</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">2024-04-01</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    <div style="display: flex; justify-content: center;">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
-            <div style="width: 15%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">1</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">재미있는 영화</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">512920명</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">2024-04-01</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    <div style="display: flex; justify-content: center;">
-        <div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
-            <div style="width: 15%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">1</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">재미있는 영화</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">512920명</p>
-            </div>
-            <div style="width: 25%; display: flex; align-items: center;">
-                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 300; margin: 0;">2024-04-01</p>  
-            </div>
-            
-        </div>
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div style="height: 0.5px; width: 60%; background-color: gray;"></div>
-    </div>
-    
-    
+    <section>
+    	<div style="display: flex; justify-content: center; ">
+    		<div style="width: 60%; display: flex; align-items: center; justify-content: space-between; margin-top: 0px;">
+    			<span style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; display: inline-block; margin: 0;">일별박스오피스 조회</span>
+    			
+    			<div>
+    				<input type="date" id="date" name="date" style="height: 30px; font-family: Arial, sans-serif;">
+    				<button id="get-movie-btn" style="width: 70px; height: 20px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; background-color: #ff7710; color: white; border-radius: 5px; border: none;">
+    					영화조회
+    				</button>
+    			</div>
+    		</div>
+    	</div>
+    	
+    	<div style="display: flex; justify-content: center; ">
+        	<div style="width: 60%; height: 30px; display: flex; align-items: center; justify-content: space-between; margin-top: 10px;">
+		 		<table class="table">
+		  			<thead>
+		    			<tr>
+		      				<th scope="col">순위</th>
+		      				<th scope="col">영화명</th>
+		      				<th scope="col">누적관객수</th>
+		      				<th scope="col">개봉일</th>
+		    			</tr>
+		 			</thead>
+		  		<tbody id="movie-list">
+
+		    
+		  		</tbody>
+				</table>
+			</div>
+    	</div>
+    </section>
+    <script src="./js/movie-api.js"></script>
 
 </body>
 </html>
